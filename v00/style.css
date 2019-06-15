@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+header {
+	height: 100vh;
+	background-image: linear-gradient(to right bottom, rgba(106,126,152, .5),rgba(156,176,202, 0.2)),url("https://wallpaperbro.com/img/200088.png");  
+	background-size: cover;
+	background-position: top;
+}
+
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 10px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .profile-img {
+    width: 1920px;
+    height: 1080px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.head-title {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.head-title-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 25px;
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+.head-title-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 15px;
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+.head-box {
+  position: absolute;
+  text-align: center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.btn {
+ 
+  color: none;
+  border: none;
+  background: #eee;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #aaa;}
+
+.default {color: black;}
