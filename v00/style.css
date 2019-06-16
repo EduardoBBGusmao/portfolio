@@ -15,12 +15,13 @@ header ul {
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 section {
+	background-image: linear-gradient(to right bottom, rgba(106,126,152, .5),rgba(156,176,202, 0.2)),url("https://wallpaperbro.com/img/200088.png");  
     height: 100vh;
-    border: 10px solid #eee;
+    border: 01px solid #eee;
     display: flex;
     justify-content: center;
     align-items: center;
