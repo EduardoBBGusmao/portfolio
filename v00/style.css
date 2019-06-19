@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0;
 }
 
@@ -56,7 +56,8 @@ header li {
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  display: inline-block;
+  animation-duration: 1.5s;
+  display: inline-block;  
 }
 
 .btn:hover {background: #aaa;}
@@ -66,36 +67,40 @@ header li {
 section {
 	background-color: #eee;
       height: 100%;
-      position: absolute;
-      top: 945px;
+      position: relative;
       left: 0;
       width: 100%;
 	
 }
-section2 {
-	background-color: #ede;
+.section2 {
+	background-color: #eee;
       height: 100%;
-      position: absolute;
-      top: 1890px;
+      position: relative;
       left: 0;
       width: 100%;
+      padding-top: 100px;
 	
 }
 
 .container {
-	background-color: #eee;
+border-color: coral;
+  background-color: #eee;
   text-align: center;	
-  padding:
-  75px;
-  margin-left: 75px;  
-      margin-bottom: 944px;
+  margin-bottom:75px;	
+  padding-top:75px;	
+}
+
+.container2 {
+  background-color: #6A7E98;
+  position: relative;
+  text-align: center;	
+  margin-bottom:75px;	
+  padding-top:75px;	
+  justify-content: center;
 }
 
 .aboutme-title {
-  text-align: center;
-	padding: 75px;
-	margin-left: 75px;
-	margin-right: 75px;
+  margin-bottom: 75px;
 }
 .column,
 .col-full,
@@ -110,13 +115,66 @@ section2 {
 .col-1-6 {
 	background-color: #eee;
 	float: left;
-	padding: 15px;
+	margin-bottom:75px;	
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	
 	width: 33.333333%;
 }
+
+.line {
+        height:33.33333333%;
+}
+
+
+
+.row { width: 100%; }
+
+.projects {
+	padding-top:10px;
+	padding:30px;
+	justify-content:center;
+	text-align:center;
+        position: relative;
+}
+
+.projects-imgs{
+	border-radius: 50%;
+	border:1px solid black;
+        position: relative;
+	height:150px;
+	margin-top: 7px;
+	justify-content: center;
+	
+	}
+
+
+.skills-top {
+        color:white;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	
+        padding:30px;
+        width: 25%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
